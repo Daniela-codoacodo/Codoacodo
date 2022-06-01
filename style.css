@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1rem;
+    height: 100%;
+}
+
+body, header, main, footer {
+    margin: 0;
+    min-height: 50px;
+    min-width: 400px;
+}
+
+header {
+    background-color: rgb(236, 229, 229);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    text-align: center;
+}
+
+.logo {
+    display: inline-block;
+    margin-left: 20px;
+    font-family:'Roboto Slab', serif;  
+}
+
+nav{
+    position: relative;
+    left: auto;
+    top:auto;
+    display: inline-block;
+    margin: 0,5rem;
+}
+.nav {
+   
+    font-family:'Roboto Slab', serif;
+    background-color: rgb(212, 209, 209)!;
+    color: gray;
+    text-decoration-line: none;
+    padding: 2px!important;
+    border-radius: 5px!;
+    font-size: x-large;
+}
+
+a:hover { color: rgb(100, 100, 160);}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(65, 63, 63);
+}  
+
+.intro {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   flex-wrap: wrap;
+   font-family:'Roboto Slab', serif; 
+   color:rgb(46, 45, 45);
+}
+
+.contenedor {
+    margin: 2rem !important; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.elemento {
+    display: inline-block; 
+    align-items: center; 
+    object-fit: cover;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+.foto {
+    position: relative;
+    color: white;
+    text-align: center;
+    
+}
+
+.texto {
+    position: absolute;
+    top:5%;
+    left:5%;
+    font-weight: bold;
+    display: none;
+    
+}
+
+.about {
+    display: block;
+    height: 80vh;
+}
+
+.parrafo_sobre_mi {
+    width: 40% ;
+    float:left;
+    font-family: 'Roboto Slab', serif;
+    font-size: x-large;
+    font-weight: bold;
+    color: rgb(46, 45, 45);
+    margin-left: 5px;
+}
+
+.imagen_sobre_mi {
+    width: 40% ;
+    float:right ;
+}
+
+#Preguntas {
+  font-family: 'Roboto Slab', serif;
+  color: rgb(46, 45, 45);
+  text-align: center;
+  margin-top: 2rem !important;
+}
+
+.warnings {
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: #B06AB3;
+    padding-top: 20px;
+}
+main {
+    min-height: 200px;
+    margin: 50px;
+}
+
+.container {
+    max-width: 1200px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.item {
+    display: inline-block; 
+    align-items: center; 
+    object-fit: cover;
+}
+#form {
+    margin: 2rem !important;
+}
+
+#form-iframe {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: 3rem auto;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 1000px) {
+    #form-iframe {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+  }
+
+  @media only screen and (max-width: 850px) {
+    #form-iframe {
+        display: flex;
+        flex-direction: column; 
+    }
+  }
+    
+#destino {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(46, 45, 45);
+  text-align: center;
+  margin-top: 2rem !important;
+}
+footer {
+    background-color: rgb(236, 229, 229);
+    box-shadow: 1rem 1rem 1rem 1rem rgba(0,0,0,.15);
+    text-align: center;
+    padding: 5px;
+      }
